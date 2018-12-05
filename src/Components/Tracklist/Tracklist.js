@@ -14,7 +14,6 @@ class Tracklist extends React.Component {
 												key={track.id}
 												onAdd={this.props.onAdd}
 												onRemove={this.props.onRemove}
-												launchPreview={this.props.launchPreview}
 									/>
 				})
 			}
