@@ -1,8 +1,9 @@
 Design Document
 
-OBJECTIVE
+##OBJECTIVE
 This feature is aimed at allowing the user to listen to a preview of the track before adding it to the playlist that will be saved to Spotify.
-BACKGROUND 
+
+###BACKGROUND 
 Currently, the track component  only displays the track’s name, artist and album. However, allowing the user to listen to a 30 second preview of the track would improve the user experience. This feature accomplishes the following:
 Displays a preview button for the tracks that have this available on Spotify
 Hides the preview button for the tracks that have a preview_url with the value of null on Spotify
